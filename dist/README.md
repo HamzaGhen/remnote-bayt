@@ -1,22 +1,20 @@
 # Arabic Poetry Formatter
 
-Formats Arabic poetry into clean, aligned صدر and عجز columns for a consistent
-presentation in RemNote.
+Format Arabic poetry as two clean, aligned hemistich columns directly inside RemNote.
 
-## Usage
+## How to use
 
-1. Write one verse on a Rem using `||` between its two hemistichs:
+1. Write the first and second halves of a verse on one Rem, separated by two vertical bars:
 
    `الصدر || العجز`
 
-2. Run the **Format Arabic Bayt** command from RemNote's slash-command menu.
+2. Type `/` to open RemNote's command menu.
+3. Select **Format Arabic Bayt**.
 
-The formatter displays both halves in fixed, right-to-left columns with a consistent
-central gap. Short verses can be lengthened manually with Arabic tatweel characters.
+The plugin formats the verse from right to left with a consistent central gap. For a
+shorter verse, you can manually add Arabic tatweel characters (`ـ`) where needed.
 
 ## Privacy
 
-The plugin works locally inside RemNote and does not send note content to any external
-service.
-
-<!-- ignore-after -->
+The plugin works locally inside RemNote. It does not collect data or send note content
+to an external service.
