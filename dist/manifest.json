@@ -1,0 +1,21 @@
+{
+  "author": "Hamza",
+  "name": "Arabic Poetry Formatter",
+  "repoUrl": "https://github.com/HamzaGhen/remnote-bayt.git",
+  "description": "Formats Arabic poetry into clean, aligned hemistich columns in RemNote.",
+  "enableOnMobile": true,
+  "id": "Arabic-Bayt-Formatter",
+  "manifestVersion": 1,
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 2
+  },
+  "requestNative": false,
+  "requiredScopes": [
+    {
+      "type": "All",
+      "level": "ReadCreateModify"
+    }
+  ]
+}
